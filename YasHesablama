@@ -1,0 +1,10 @@
+def YaşHesablayıcı():
+    while True:
+         Doğum_ili = int(input("Doğum ilinizi girin:"))
+         if Doğum_ili > 2022:
+             print("Təkrar Dənəyin!!!")
+         else:
+             Yaş = 2022 - Doğum_ili
+             print(Yaş)
+print("                              Yaş Hesablayıcı                   ")
+YaşHesablayıcı()
